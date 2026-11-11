@@ -1,0 +1,60 @@
+# Exploratory Data Analysis and Business Intelligence Report
+
+## 1. Project Overview
+
+The objective of this task is to perform Exploratory Data Analysis (EDA) on the cleaned sales dataset to identify business patterns, trends, and relationships. Python, Pandas, Matplotlib, and SQL were used for analysis.
+
+## 2. Dataset Overview
+
+- Total records: 1,000
+- Total columns: 12
+- Numerical columns: Age, Quantity, Unit_Price, Total_Sales
+- Categorical columns: Gender, City, Product, Category, and customer-related fields
+- Date range: 1 January 2025 to 1 January 2026
+
+## 3. Descriptive Statistics and Univariate Analysis
+
+Descriptive statistics were calculated to understand the distribution of numerical data, including mean, median, minimum, maximum, and standard deviation.
+
+Histograms were used to examine numerical columns, while bar charts were used to compare categorical values such as gender, city, product, and category.
+
+## 4. SQL Business Analysis
+
+Seven business questions were answered using SQL queries involving aggregation, grouping, sorting, filtering, and date-based analysis.
+
+Key findings:
+
+- Total revenue: ₹139,399,439.65
+- Highest quantity sold: Mobile (1,008 units)
+- Highest revenue city: Patna (₹19,285,966.89)
+- Average sales per record: ₹139,399.44
+- Highest revenue category: Electronics (approximately ₹50.78 million)
+- Highest revenue month: March 2025 (₹13,059,899.94)
+- Highest-spending recorded customer ID: CUST9510 (₹867,333.24)
+
+A bonus SQL JOIN was also demonstrated using a product-category lookup table derived from the sales dataset.
+
+## 5. Multivariate Analysis and Correlation
+
+Correlation analysis showed:
+
+- Quantity and Total_Sales: 0.647
+- Unit_Price and Total_Sales: 0.686
+- Age and Total_Sales: 0.001
+
+The results indicate positive relationships between quantity, unit price, and total sales. Age showed almost no linear relationship with total sales.
+
+A correlation heatmap and scatter plots were created to visualize these relationships.
+
+## 6. Business Dashboard
+
+A static sales dashboard was created using Matplotlib. It presents important KPIs, monthly revenue, and revenue by product category.
+
+The dashboard highlights total revenue, average sales per record, total records, top-selling product, top-revenue city, and top-revenue category.
+
+## 7. Conclusion
+
+The analysis identified Electronics as the highest-revenue category, Mobile as the highest-selling product by quantity, and Patna as the highest-revenue city. March 2025 generated the highest monthly revenue among the months in the dataset.
+
+These findings can help a business understand sales performance and identify areas for further investigation.
+
